@@ -1,0 +1,1 @@
+from .harmonicrsnns import SimpleHarmonicRNN

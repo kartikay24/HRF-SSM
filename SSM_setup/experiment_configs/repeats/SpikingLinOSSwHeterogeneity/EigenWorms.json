@@ -1,0 +1,32 @@
+{
+    "seeds": [
+        2345,
+        3456,
+        4567,
+        5678,
+        6789
+    ],
+    "data_dir": "data_dir",
+    "output_parent_dir": "",
+    "lr_scheduler": "lambda lr: lr",
+    "num_steps": 100000,
+    "print_steps": 1000,
+    "batch_size": 4,
+    "model_name": "SpikingLinOSSwHeterogeneity",
+    "metric": "accuracy",
+    "classification": true,
+    "dataset_name": "EigenWorms",
+    "use_presplit": false,
+    "T": 1,
+    "dt0": null,
+    "linoss_discretization": "IM",
+    "scale": 0,
+    "time": "False",
+    "lr": "0.001",
+    "num_blocks": "2",
+    "hidden_dim": "128",
+    "ssm_dim": "64",
+    "ssm_blocks": "2",
+    "heterogeneity_setup": "homogeneous",
+    "dropout": 0.0
+}
